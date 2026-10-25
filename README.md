@@ -21,7 +21,7 @@
 ---
 
 <div align="center">
-  <img src="assets/baryovpn-hero.png" alt="BaryoVPN promotional product overview" width="360">
+  <img src="assets/baryovpn-hero.png" alt="BaryoVPN promotional product overview" width="720">
 </div>
 
 <p align="center"><sub>BaryoVPN product overview · clear status, privacy-minded design and live connection insights.</sub></p>
@@ -32,42 +32,31 @@ BaryoVPN gives you a calmer way to work with Android VPN connections: a clear ho
 
 This repository is the **official public distribution hub** for BaryoVPN Android. It is intentionally separate from other projects and contains release materials for users—not application source code or private implementation details.
 
-## Why users choose it
+## What BaryoVPN includes
 
-<table>
-<tr>
-<td width="50%">
+| Area | User-facing capability |
+|---|---|
+| **Home dashboard** | Protection state, selected server, latency, protocol, DNS mode and live download/upload traffic in one view. |
+| **Server center** | Search, organize and select individual profiles or profiles imported from multiple subscription groups. |
+| **Subscription tools** | Add, rename, copy, paste and refresh subscription links with clear update feedback. |
+| **QR workflow** | Scan a supported subscription or configuration QR code and receive a green verification confirmation before continuing. |
+| **Activity center** | Review connection state, session traffic and local diagnostic events without sending them to a public service. |
+| **Large collections** | Designed to stay practical with substantial profile libraries through local organization and efficient updates. |
+| **Battery-aware runtime** | Conservative background polling, traffic sampling and recovery behavior to reduce unnecessary CPU work while connected. |
+| **Resilience options** | Connection profiles and safeguards designed for unstable or restrictive network conditions, while keeping certificate and leak-protection choices explicit. |
 
-### A dashboard that explains itself
+## Supported profile types
 
-See protection state, selected server, latency, protocol and live traffic without digging through technical screens.
+BaryoVPN can work with commonly used Xray-based profile formats, depending on the fields provided by the source and the capabilities of the bundled core:
 
-</td>
-<td width="50%">
+- VLESS, including common Reality and Vision fields
+- VMess
+- Trojan
+- Shadowsocks
+- SOCKS5 and HTTP proxy profiles
+- XHTTP transport profiles
 
-### Subscriptions without the mess
-
-Add, rename, refresh and organize subscription groups with paste, copy, QR scanning, smart naming and HTTPS preview.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### A confident QR flow
-
-A valid scan ends with a green verification check and Baryo VPN branding before the app continues to the next step.
-
-</td>
-<td width="50%">
-
-### Built for large collections
-
-Browse substantial profile libraries with practical organization, local state and performance-minded screens.
-
-</td>
-</tr>
-</table>
+The app validates unsupported or incomplete data instead of silently treating it as a working connection. TUIC v5 is not included in the current bundled core; users should not expect a TUIC profile to connect in this release.
 
 ## Latest release · 2.28.7 / Build 259
 
@@ -95,16 +84,21 @@ It also includes the redesigned Subscription Center with one-tap copy and paste,
 
 ## Why is the APK large?
 
-The release is a **standalone universal APK**, not a tiny development shell. It packages the Android runtime, the complete UI bundle, native connection components, compatibility resources and the assets needed for a direct install.
+The current release APK is approximately **212 MB** because it is a **standalone universal APK**, not a small development shell. It packages everything needed for a direct installation:
 
-That means:
+- the Android and React Native runtime;
+- the complete user interface bundle and application resources;
+- the bundled native connection engine;
+- native binaries and compatibility data for multiple Android CPU architectures;
+- the visual assets required for the complete app experience.
 
-- no Metro server or desktop computer is required;
-- the same APK is convenient across a wide range of Android devices;
-- the full user-facing experience is present after installation;
-- the universal package is larger than architecture-specific split packages.
+A universal APK is intentionally larger than architecture-specific split packages, but it is simpler for users: one download works across a wider range of Android devices and does not require Metro, a desktop computer or a separate runtime download.
 
 The size is a distribution trade-off. It does **not** mean the app is silently bundling private subscriptions or uploading user data. GitHub Release assets are used because they support large APKs cleanly while keeping version history and download links organized.
+
+## Privacy and public reporting
+
+BaryoVPN's public distribution repository does not contain application source code, source archives, private implementation reports or user subscription data. Please do not post subscription URLs, access tokens, credentials, UUIDs, private keys, raw configuration files or personal data in public issues. Read [SECURITY.md](SECURITY.md) before reporting anything that may be private.
 
 ## Release timeline
 
@@ -113,12 +107,6 @@ The size is a distribution trade-off. It does **not** mean the app is silently b
 | **2.28.7** | QR success confirmation with BaryoVPN logo and green verification check |
 | **2.28.6** | Subscription Center redesign with copy, paste, QR, smart naming and HTTPS preview |
 | **2.28.5** | Security hardening release and safer diagnostics |
-
-## Privacy and public reporting
-
-Please do not post subscription URLs, access tokens, credentials, UUIDs, private keys, raw configuration files or personal data in public issues. Read [SECURITY.md](SECURITY.md) before reporting anything that may be private.
-
-The public repository deliberately contains only user-facing distribution materials. No application source code, source ZIP or private implementation report is published here.
 
 <div align="center">
 
