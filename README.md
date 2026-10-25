@@ -21,10 +21,10 @@
 ---
 
 <div align="center">
-  <img src="assets/dashboard-preview.jpg" alt="BaryoVPN dashboard showing protected connection, live traffic and selected server" width="360">
+  <img src="assets/baryovpn-hero.png" alt="BaryoVPN promotional product overview" width="360">
 </div>
 
-<p align="center"><sub>A real BaryoVPN dashboard preview. Private server identifiers are intentionally obscured in the public image.</sub></p>
+<p align="center"><sub>BaryoVPN product overview · clear status, privacy-minded design and live connection insights.</sub></p>
 
 ## The short version
 
