@@ -62,7 +62,7 @@ The app validates unsupported or incomplete data instead of silently treating it
 
 [![Release](https://img.shields.io/github/v/release/Anooshacavin/BaryoVPN-Android?display_name=tag&sort=semver&style=flat-square&color=635BFF)](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
-The latest release is a stability-audited build with 171 automated tests, strict TypeScript validation and synchronized Android release checks. It keeps the polished QR success confirmation After a valid scan, BaryoVPN shows its logo, a green verification checkmark and a short validation message before handing off to Add Subscription or Servers.
+The latest release is a stability-audited build with 171 automated tests, strict TypeScript validation and synchronized Android release checks. It keeps the polished QR success confirmation. After a valid scan, BaryoVPN shows its logo, a green verification checkmark and a short validation message before handing off to Add Subscription or Servers.
 
 It also includes the redesigned Subscription Center with one-tap copy and paste, QR scanning, smart naming, HTTPS preview and clearer validation feedback.
 
