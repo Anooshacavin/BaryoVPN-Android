@@ -58,7 +58,7 @@ BaryoVPN can work with commonly used Xray-based profile formats, depending on th
 
 The app validates unsupported or incomplete data instead of silently treating it as a working connection. TUIC v5 is not included in the current bundled core; users should not expect a TUIC profile to connect in this release.
 
-## Latest release · 2.28.9 / Build 261 · Bug Fix
+## Latest release · 2.28.10 / Build 262 · Bug Fix
 
 [![Release](https://img.shields.io/github/v/release/Anooshacavin/BaryoVPN-Android?display_name=tag&sort=semver&style=flat-square&color=635BFF)](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
@@ -68,7 +68,7 @@ It also includes the redesigned Subscription Center with one-tap copy and paste,
 
 <div align="center">
 
-### [Download BaryoVPN 2.28.9 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
+### [Download BaryoVPN 2.28.10 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
 </div>
 
@@ -104,6 +104,7 @@ BaryoVPN's public distribution repository does not contain application source co
 
 | Version | Highlights |
 |---|---|
+| **2.28.10** | Bug Fix release with ssconf and Xray TLS compatibility |
 | **2.28.9** | Bug Fix release with ssconf and connection improvements |
 | **2.28.8** | Bug Fix release with stability and connection improvements |
 | **2.28.7** | QR success confirmation with BaryoVPN logo and green verification check |
