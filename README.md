@@ -58,17 +58,17 @@ BaryoVPN can work with commonly used Xray-based profile formats, depending on th
 
 The app validates unsupported or incomplete data instead of silently treating it as a working connection. TUIC v5 is not included in the current bundled core; users should not expect a TUIC profile to connect in this release.
 
-## Latest release · 2.28.8 / Build 260 · Bug Fix
+## Latest release · 2.28.9 / Build 261 · Bug Fix
 
 [![Release](https://img.shields.io/github/v/release/Anooshacavin/BaryoVPN-Android?display_name=tag&sort=semver&style=flat-square&color=635BFF)](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
-This bug-fix release improves app stability, connection handling and the QR import experience. After a valid scan, BaryoVPN shows its logo, a green verification checkmark and a short validation message before handing off to Add Subscription or Servers.
+This bug-fix release adds support for Outline-style ssconf dynamic Shadowsocks subscription links, improves connection handling and keeps the QR import experience clear. After a valid scan, BaryoVPN shows its logo, a green verification checkmark and a short validation message before handing off to Add Subscription or Servers.
 
 It also includes the redesigned Subscription Center with one-tap copy and paste, QR scanning, smart naming, HTTPS preview and clearer validation feedback.
 
 <div align="center">
 
-### [Download BaryoVPN 2.28.8 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
+### [Download BaryoVPN 2.28.9 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
 </div>
 
@@ -104,6 +104,7 @@ BaryoVPN's public distribution repository does not contain application source co
 
 | Version | Highlights |
 |---|---|
+| **2.28.9** | Bug Fix release with ssconf and connection improvements |
 | **2.28.8** | Bug Fix release with stability and connection improvements |
 | **2.28.7** | QR success confirmation with BaryoVPN logo and green verification check |
 | **2.28.6** | Subscription Center redesign with copy, paste, QR, smart naming and HTTPS preview |
