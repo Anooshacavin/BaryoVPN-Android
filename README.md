@@ -58,17 +58,24 @@ BaryoVPN can work with commonly used Xray-based profile formats, depending on th
 
 The app validates unsupported or incomplete data instead of silently treating it as a working connection. TUIC v5 is not included in the current bundled core; users should not expect a TUIC profile to connect in this release.
 
-## Latest release · 2.28.10 / Build 262 · Bug Fix
+## Latest release · 2.30.0 / Build 300 · Final
 
 [![Release](https://img.shields.io/github/v/release/Anooshacavin/BaryoVPN-Android?display_name=tag&sort=semver&style=flat-square&color=635BFF)](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
-This bug-fix release adds support for Outline-style ssconf dynamic Shadowsocks subscription links, improves connection handling and keeps the QR import experience clear. After a valid scan, BaryoVPN shows its logo, a green verification checkmark and a short validation message before handing off to Add Subscription or Servers.
+### 🟠 Before installing
 
-It also includes the redesigned Subscription Center with one-tap copy and paste, QR scanning, smart naming, HTTPS preview and clearer validation feedback.
+If **BaryoVPN 2.28.10** is installed, uninstall it before installing **BaryoVPN 2.30.0**. We recommend a fresh installation for this refreshed release.
+
+### What’s new in 2.30.0
+
+- Improved support for Outline subscription links, with better handling of sending and receiving.
+- A clearer connection check to help you see whether a profile responds.
+- Startup and network recovery improvements intended to reduce interruptions.
+- Quick Diagnostics now shows recent logs and can copy a privacy-redacted report.
 
 <div align="center">
 
-### [Download BaryoVPN 2.28.10 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
+### [Download BaryoVPN 2.30.0 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 
 </div>
 
@@ -104,7 +111,7 @@ BaryoVPN's public distribution repository does not contain application source co
 
 | Version | Highlights |
 |---|---|
-| **2.28.10** | Bug Fix release with ssconf and Xray TLS compatibility |
+| **2.30.0** | Refreshed connection and diagnostics experience with improved Outline link support |
 | **2.28.9** | Bug Fix release with ssconf and connection improvements |
 | **2.28.8** | Bug Fix release with stability and connection improvements |
 | **2.28.7** | QR success confirmation with BaryoVPN logo and green verification check |
