@@ -53,32 +53,26 @@ BaryoVPN can work with commonly used Xray-based profile formats, depending on th
 - VMess
 - Trojan
 - Shadowsocks
+- Outline dynamic access keys (`ssconf://`), including prefix disguises
 - SOCKS5 and HTTP proxy profiles
 - XHTTP transport profiles
 
 The app validates unsupported or incomplete data instead of silently treating it as a working connection. TUIC v5 is not included in the current bundled core; users should not expect a TUIC profile to connect in this release.
 
-## Latest release · 2.30.0 / Build 300 · Final
-
+## Latest release · 2.28.14 / Build 266
 [![Release](https://img.shields.io/github/v/release/Anooshacavin/BaryoVPN-Android?display_name=tag&sort=semver&style=flat-square&color=635BFF)](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
+> [!CAUTION]
+> **IMPORTANT — PLEASE READ BEFORE INSTALLING:** Uninstall the BaryoVPN version currently on your device, then install BaryoVPN 2.28.14 using the APK attached to the latest release. Uninstalling may erase locally saved profiles and settings; back up anything you need first.
 
-### 🟠 Before installing
-
-If **BaryoVPN 2.28.10** is installed, uninstall it before installing **BaryoVPN 2.30.0**. We recommend a fresh installation for this refreshed release.
-
-### What’s new in 2.30.0
-
-- Improved support for Outline subscription links, with better handling of sending and receiving.
-- A clearer connection check to help you see whether a profile responds.
-- Startup and network recovery improvements intended to reduce interruptions.
-- Quick Diagnostics now shows recent logs and can copy a privacy-redacted report.
-
+### What’s new in 2.28.14
+- Supports Outline dynamic access keys (`ssconf://`) and refreshes them before connecting.
+- Supports Outline keys that use prefix disguises.
+- Quick Diagnostics now includes a clearer activity log, filters and more reliable scrolling.
+- Connection status and activity messages are simpler and easier to understand.
+- Improved compatibility for Outline connections.
 <div align="center">
-
-### [Download BaryoVPN 2.30.0 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
-
+### [Download BaryoVPN 2.28.14 for Android →](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest)
 </div>
-
 ## Install in a few steps
 
 1. Open the [latest release](https://github.com/Anooshacavin/BaryoVPN-Android/releases/latest).
@@ -91,7 +85,7 @@ If **BaryoVPN 2.28.10** is installed, uninstall it before installing **BaryoVPN 
 
 ## Why is the APK large?
 
-The current release APK is approximately **212 MB** because it is a **standalone universal APK**, not a small development shell. It packages everything needed for a direct installation:
+The current release APK is approximately **213 MiB** because it is a **standalone universal APK**, not a small development shell. It packages everything needed for a direct installation:
 
 - the Android and React Native runtime;
 - the complete user interface bundle and application resources;
@@ -111,8 +105,7 @@ BaryoVPN's public distribution repository does not contain application source co
 
 | Version | Highlights |
 |---|---|
-| **2.30.0** | Refreshed connection and diagnostics experience with improved Outline link support |
-| **2.28.9** | Bug Fix release with ssconf and connection improvements |
+| **2.28.14** | Outline dynamic keys and prefix support, plus clearer connection diagnostics |
 | **2.28.8** | Bug Fix release with stability and connection improvements |
 | **2.28.7** | QR success confirmation with BaryoVPN logo and green verification check |
 | **2.28.6** | Subscription Center redesign with copy, paste, QR, smart naming and HTTPS preview |
