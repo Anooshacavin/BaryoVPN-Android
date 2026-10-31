@@ -99,6 +99,16 @@ A universal APK is intentionally larger than architecture-specific split package
 
 The size is a distribution trade-off. It does **not** mean the app is silently bundling private subscriptions or uploading user data. GitHub Release assets are used because they support large APKs cleanly while keeping version history and download links organized.
 
+## Ownership and permitted use
+
+BaryoVPN is an original software product created and maintained by **Ehsan Farzian**.
+
+**Copyright © 2026 Ehsan Farzian. All rights reserved.**
+
+The BaryoVPN name, branding, visual design, user interface, product concept, application builds and related materials are protected intellectual property. No permission is granted to copy, reproduce, modify, fork, repackage, decompile, redistribute, publish, mirror, sublicense, sell or use any part of BaryoVPN for commercial or competing purposes without prior explicit written authorization from Ehsan Farzian.
+
+Downloading or installing a public APK does not transfer ownership, grant a license to the application, or authorize redistribution. Any authorized use must preserve the original attribution and comply with the written terms provided by the copyright holder. For permission requests, contact the copyright holder before using, adapting or distributing any BaryoVPN material.
+
 ## Privacy and public reporting
 
 BaryoVPN's public distribution repository does not contain application source code, source archives, private implementation reports or user subscription data. Please do not post subscription URLs, access tokens, credentials, UUIDs, private keys, raw configuration files or personal data in public issues. Read [SECURITY.md](SECURITY.md) before reporting anything that may be private.
