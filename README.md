@@ -101,13 +101,14 @@ The size is a distribution trade-off. It does **not** mean the app is silently b
 
 ## Ownership and permitted use
 
-BaryoVPN is an original software product created and maintained by **Ehsan Farzian**.
-
-**Copyright © 2026 Ehsan Farzian. All rights reserved.**
-
-The BaryoVPN name, branding, visual design, user interface, product concept, application builds and related materials are protected intellectual property. No permission is granted to copy, reproduce, modify, fork, repackage, decompile, redistribute, publish, mirror, sublicense, sell or use any part of BaryoVPN for commercial or competing purposes without prior explicit written authorization from Ehsan Farzian.
-
-Downloading or installing a public APK does not transfer ownership, grant a license to the application, or authorize redistribution. Any authorized use must preserve the original attribution and comply with the written terms provided by the copyright holder. For permission requests, contact the copyright holder before using, adapting or distributing any BaryoVPN material.
+> [!CAUTION]
+> **Ownership notice:** BaryoVPN is an original software product created and maintained by **Ehsan Farzian**.
+>
+> **Copyright © 2026 Ehsan Farzian. All rights reserved.**
+>
+> The BaryoVPN name, branding, visual design, user interface, product concept, application builds and related materials are protected intellectual property. Copying, reproducing, modifying, forking, repackaging, decompiling, redistributing, publishing, mirroring, sublicensing, selling or using any part of BaryoVPN for commercial or competing purposes without prior explicit written authorization is prohibited.
+>
+> Downloading or installing a public APK does not transfer ownership, grant a license to the application, or authorize redistribution. Any authorized use must preserve the original attribution and comply with written terms from the copyright holder.
 
 ## Privacy and public reporting
 
